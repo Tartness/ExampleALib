@@ -4,7 +4,7 @@ unsigned int ClassD::counter_ = 0;
 
 ClassD::ClassD() {
   std::cout << "Class D initialized, counter is: " << ++counter_ << '\n';
-  std::cout << "Class D has Version 1.0" << ++counter_ << '\n';
+  std::cout << "Class D has Version 2.0" << ++counter_ << '\n';
 }
 
 void ClassD::printCounter() {
